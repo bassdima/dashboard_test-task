@@ -1,0 +1,36 @@
+.search {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 7px;
+    gap: 8px;
+    align-items: center;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    margin-top: 5px;
+    cursor: pointer;
+
+    &:hover {
+        border-color: #5932EA;
+    }
+
+    &:focus-within {
+        border-color: #5932EA;
+    }
+
+    &__input {
+        outline: none;
+        border: none;
+        background-color: #FFFFFF;
+    }
+
+    @media(min-width: 768px) {
+        background-color: #F9FBFF;
+        border: 2px solid #F9FBFF;
+
+        &__input {
+            background-color: #F9FBFF;
+        }
+    }
+}

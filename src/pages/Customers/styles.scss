@@ -1,0 +1,29 @@
+.customers-page {
+    padding: 15px 15px 15px 15px;
+    background-color: #FAFBFF;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &__greetings {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 15px;
+        letter-spacing: 0.1px;
+    }
+
+    @media(min-width: 768px) {
+        display: block;
+    }
+
+    @media(min-width: 1440px) {
+        padding: 41px 99px 256px 0px;
+        margin-left: 0px;
+
+        &__greetings {
+            margin-left: 0px;
+            margin-bottom: 51px;
+        }
+    }
+}

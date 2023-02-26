@@ -1,0 +1,27 @@
+.customers-card-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+    @media(min-width: 768px) {
+        flex-direction: row;
+        margin-bottom: 29px;
+        align-items: center;
+    }
+}
+
+.customers-card-title {
+    margin-right: auto;
+
+    &__all {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 33px;
+        margin-bottom: 7px;
+    }
+
+    &__active {
+        font-weight: 400;
+        color: #16C098;
+    }
+}
